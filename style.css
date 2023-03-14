@@ -1,0 +1,83 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background: #727272;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.product {
+    background: #c7c6c6;
+	width: calc(33.33% - 20px);
+	margin-bottom: 40px;
+	padding-right: 20px;
+	position: relative;
+
+	animation-name: slide-up;
+	animation-duration: .5s;
+	box-shadow:
+	  rgba(0,0,0,.12) -6px -6px ,
+	  rgba(255,255,255,.8) -4px -4px ,
+	  rgba(0,0,0,.12) -1px -1px ,
+	  rgba(255,255,255,.8) -2px -2px ;
+	border-radius:.5rem; 
+    margin-left: 15px;
+}
+
+.product img {
+    opacity: 0.9;
+	width: 105%;
+	height:auto; 
+	object-fit:center; 
+	border-radius:.5rem .5rem .25rem .25rem; 
+}
+
+.product h2 {
+	margin-top:.5rem; 
+	font-size:.9rem; 
+	font-weight:bold; 
+	color:#333; 
+	text-align:center; 
+	line-height:normal;  
+}
+
+.product p.price {	
+	margin-top:.25rem; 	
+	font-size:.75rem; 	
+	color:#333333b3; 	
+	text-align:center; 	
+	line-height:normal;  
+}
+
+.product p.quantity {	
+	margin-top:.25rem; 	
+	font-size:.75rem; 	
+	color:#333333b3 ; 	
+	text-align:center ; 	
+	line-height:normal ;  
+}
+
+
+@keyframes slide-up{
+	from{transform : translateY(50%);}
+	to{transform : translateY(0);}
+}

@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "capybara 1",
+      "image": "https://bit.ly/42prMKX",
+      "price": 10,
+      "quantity": 1.5
+    },
+    {
+      "id": 2,
+      "name": "capybara 2",
+      "image": "https://bit.ly/3mS5scs",
+      "price": 20,
+      "quantity": 6
+    },
+    {
+      "id": 3,
+      "name": "capybara 3",
+      "image": "https://bit.ly/42prMKX",
+      "price": 30,
+      "quantity": 5
+    },
+    {
+      "id": 4,
+      "name": "capybara 4",
+      "image": "https://bit.ly/3mS5scs",
+      "price": 12,
+      "quantity": 3
+    },
+    {
+      "id": 5,
+      "name": "capybara 5",
+      "image": "https://bit.ly/42prMKX",
+      "price": 3,
+      "quantity": 2
+    },
+    {
+      "id": 6,
+      "name": "capybara 6",
+      "image": "https://bit.ly/3mS5scs",
+      "price": 110,
+      "quantity": 1
+    }
+  ]
+}
